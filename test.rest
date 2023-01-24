@@ -1,0 +1,24 @@
+# GET http://localhost:8080/
+
+# GET http://localhost:8080/abcd
+
+# //send srting in url
+# GET http://localhost:8080/Pritish
+
+
+# GET http://localhost:8080/username
+
+//send json 
+POST http://localhost:8080/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username": "Pritish4",
+    "password": "myPass@123"
+}
+
+# {
+#     "name": "Pritish2",
+#     "company": "10x"
+# }
