@@ -28,8 +28,8 @@ app.listen(port, () => {
     console.log(`App is listening on ${port}`);
 })
 
-app.get("/", (res, resp) => {
-    resp.send(`<h1>You are in</h1>`)
+app.get("/test", (res, resp) => {
+    resp.send(`<h1>You are in / Backend is working</h1>`)
 })
 
 
